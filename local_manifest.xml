@@ -12,6 +12,7 @@
 	
     <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="pissarro-lab" revision="fourteen" clone-depth="1" />
 	<project path="kernel/xiaomi/pissarro" name="kernel_xiaomi_pissarro" remote="pissarro" revision="lineage-21" clone-depth="1" />
+	<project path="vendor/xiaomi/miuicamera-pissarro" name="vendor_xiaomi_miuicamera-pissarro" remote="pissarro" revision="main" clone-depth="1" />
 	<project path="vendor/xiaomi/pissarro" name="vendor_xiaomi_pissarro" remote="pissarro-lab" revision="fourteen" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="mediatek" revision="lineage-21" clone-depth="1" />
 	<project path="hardware/mediatek" name="hardware_mediatek" remote="pissarro-lab" revision="lineage-21" clone-depth="1" />
