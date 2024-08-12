@@ -5,14 +5,16 @@
 		fetch="https://github.com/xiaomi-mediatek-devs" />
 	<remote  name="pissarro"
 		fetch="https://github.com/pissarro-dev" />
+	<remote  name="pissarro-lab"
+		fetch="https://github.com/pissarro-lab" />
 	<!--remote  name="clang"
                 fetch="https://github.com/kdrag0n" /-->
 	
-    <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="pissarro" revision="fourteen" clone-depth="1" />
+    <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="pissarro-lab" revision="fourteen" clone-depth="1" />
 	<project path="kernel/xiaomi/pissarro" name="kernel_xiaomi_pissarro" remote="pissarro" revision="lineage-21" clone-depth="1" />
-	<project path="vendor/xiaomi/pissarro" name="vendor_xiaomi_pissarro" remote="pissarro" revision="fourteen" clone-depth="1" />
+	<project path="vendor/xiaomi/pissarro" name="vendor_xiaomi_pissarro" remote="pissarro-lab" revision="fourteen" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="mediatek" revision="lineage-21" clone-depth="1" />
-	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="mediatek" revision="lineage-21" clone-depth="1" />
+	<project path="hardware/mediatek" name="hardware_mediatek" remote="pissarro-lab" revision="lineage-21" clone-depth="1" />
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mediatek" revision="lineage-21" clone-depth="1" />
 	<!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" /-->
 	
